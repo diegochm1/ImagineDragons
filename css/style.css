@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    box-shadow: 5px 5px 5px #020202;
+    background-color: #576de7;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-bottom: 3px;
+}
+
+header img{
+    width: 400px;
+}
+
+header nav{
+    width: 600px;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0.5rem;
+    background-color: #576de7;
+    display: flex;
+    justify-content: flex-end;
+    font-family:'Lato', sans-serif;
+}
+.menu li{
+    margin: 20px;
+    padding: 15px;
+}
+.menu li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.menu li:hover{
+    background-color: #ce3850;
+    border-radius: 20%;
+}
+.menu li a:hover{
+    color: #fffdfd;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-family: 'Kaushan Script', cursive;
+}
+
+h3{
+    font-family: 'Kaushan Script', cursive;
+}
+
+h4{
+    font-family: 'Kaushan Script', cursive;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+.banner{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.video-calendario{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bones{
+    text-align: center;
+}
+
+#calendario{
+    text-align: center;
+}
+
+#tabla{
+    margin-top: 50px;
+    background-color: #576de7;
+    color: #ffffff;
+    font-family:'Lato', sans-serif;
+    width: 400px;
+    height: 300px;
+        
+}
+
+th{
+    background-color: #060811;
+    padding: 3px;
+}
+
+th:hover{
+    background-color: #ce3850;
+}
+
+td{
+    background-color: #000000;
+    padding: 5px;
+}
+
+td:hover{
+    background-color: #ce3850;
+}
+
+.miembros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #576de7;
+}
+
+img.border{
+    border-radius: 2% 2% 0% 0%;
+    width: 260px;
+    height: 360px;
+    margin-bottom: 8px;
+}
+
+#integrantes{
+    text-align: center;
+    background-color: #576de7;
+    padding-bottom: 30px;
+    padding-top: 50;
+}
+
+#dan{
+    border: #ffffff;
+    border-style: solid;
+    text-align: center;
+    box-shadow: 5px 5px #ffffff;
+    border-radius: 3%;
+}
+#dan:hover{
+    background-color: #ce3850;
+}
+
+#ben{
+    border: #ffffff;
+    border-style: solid;
+    text-align: center;
+    box-shadow: 5px 5px #ffffff;
+    border-radius: 3%;
+}
+#ben:hover{
+    background-color: #ce3850;
+}
+
+#wayne{
+    border: #ffffff;
+    border-style: solid;
+    text-align: center;
+    box-shadow: 5px 5px #ffffff;
+    border-radius: 3%;
+}
+#wayne:hover{
+    background-color: #ce3850;
+}
+
+#daniel{
+    border: #ffffff;
+    border-style: solid;
+    text-align: center;
+    box-shadow: 5px 5px #ffffff;
+    border-radius: 3%;
+}
+#daniel:hover{
+    background-color: #ce3850;
+}
+
+#conocer-mas{
+    text-align: center;
+    background-color: #576de7;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border: #020202;
+}
+
+a.button{
+    background-color: #020202;
+    color: #f8f6f6;
+    border: none;
+    border-radius: 10%;
+    padding: 1%;
+    text-decoration: none;
+}
+
+#introduccion{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.calavera{
+    width: 300px;
+    height: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#parrafo{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+.divDerecha{
+    background-color: #576de7;
+    display: flex;
+    margin-bottom: 30px;
+}
+.divDerecha:hover{
+    background-color: #000000
+}
+
+.divIzquierda{
+    background-color: #ce3850;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+}
+.divIzquierda:hover{
+    background-color: #000000
+}
+
+.titulo{
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.parrafo{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 50;
+}
+
+#discografia{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.portadaAlbum{
+    text-align: center;
+    box-shadow: 5px 5px #000000;
+    border-radius: 3%;
+}
+.portadaAlbum:hover{
+    filter:contrast(.8)
+}
+
+#album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.contenedor{
+    background-color: white;
+    width: 90%;
+    height: 80vh;
+    border: black solid 3px;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "ab ab c"
+    "d ef ef";
+}
+.hijo{
+    border: 3px solid black;
+}
+
+.ab{
+    background-color:#ce3850;
+    grid-area: ab;
+}
+
+.ef{
+    background-color: #576de7;
+    grid-area: ef;
+}
+
+.c{
+    grid-area: c;
+}
+
+.d{
+    grid-area: d;
+}
+
+#mercury{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.background{
+    background-image: url(https://previews.123rf.com/images/roystudio/roystudio1509/roystudio150900187/44756200-fondo-blanco-resumen-da-forma-de-tela-patr%C3%B3n-de-textura.jpg);
+}
+
+.titulosFanArt{
+    font-size: 40px;
+    padding-top: 30;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.wallpaper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgWallPaper{
+    width: 300px;
+    height: 470px;
+    border-radius: 2%;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px #000000;
+    border-radius: 3%;
+}
+.imgWallPaper:hover{
+    filter:contrast(.8)
+}
+
+.footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: #576de7;
+    background-color: #000000;
+}    
+
+#redes{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#preordena{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#newsletter{
+    margin-bottom: 20px;
+}
+
+img.border-1{
+    border-radius: 20px;
+    box-shadow: 2px 2px #fcfcfc;
+}
+img.border-1:hover{
+    filter:brightness(.6)
+}
+
+
