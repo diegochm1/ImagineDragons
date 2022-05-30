@@ -283,9 +283,9 @@ a.button{
 
 .contenedor{
     background-color: white;
+    color: white;
     width: 90%;
     height: 80vh;
-    border: black solid 3px;
     font-size: 24px;
     text-align: center;
     margin: 20px auto;
@@ -297,17 +297,18 @@ a.button{
     "d ef ef";
 }
 .hijo{
-    border: 3px solid black;
+    border: 3px solid white;
 }
 
 .ab{
-    background-color:#ce3850;
+    background-color:black;
     grid-area: ab;
 }
 
 .ef{
-    background-color: #576de7;
+    background-color: black;
     grid-area: ef;
+    
 }
 
 .c{
