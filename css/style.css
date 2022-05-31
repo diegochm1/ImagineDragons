@@ -213,6 +213,9 @@ a.button{
     margin-right: 30px;
 }
 
+.calavera:hover{
+    transform: rotate(60deg);
+}
 #parrafo{
     text-align: center;
     margin-top: 50px;
@@ -271,6 +274,7 @@ a.button{
     border-radius: 3%;
 }
 .portadaAlbum:hover{
+    transform: scale(1.1, 1.1);
     filter:contrast(.8)
 }
 
@@ -350,7 +354,8 @@ a.button{
     border-radius: 3%;
 }
 .imgWallPaper:hover{
-    filter:contrast(.8)
+    transform: scale(1.1, 1.1);
+    filter:contrast(.8);
 }
 
 .footer{

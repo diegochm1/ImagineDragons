@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/a0d2knw7jsm81.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Imagine Dragons</title>
 </head>
 <body class="background">
@@ -26,10 +27,10 @@
         <img src="./img/Banner azul.jpg" width="1000px" alt="Banner del inicio" class="banner">
         <div class="video-calendario">
             <section id="bones">
-                <h1>
+                <h1 class="wow animate__animated animate__backInLeft">
                     ÚLTIMO LANZAMIENTO
                 </h1>
-                <h2>
+                <h2 class="wow animate__animated animate__backInLeft">
                     <em>
                         Bones - Official Music Video
                     </em>
@@ -37,10 +38,10 @@
                 <video src="./video/Imagine Dragons  Bones Official Music Video_1080p.mp4" width="670px" height="380px" controls poster="./img/bones portada.jpg"></video>
             </section>
             <section id="calendario">
-                <h1>
+                <h1 class="wow animate__animated animate__backInRight">
                     PROXIMOS CONCIERTOS
                 </h1>
-                <h2>
+                <h2 class="wow animate__animated animate__backInRight">
                     <em>
                         MERCURY WORLD TOUR
                     </em>
@@ -195,5 +196,9 @@
             </section>
         </div>
     </footer>
+    <script src="./js/wow.min.js"> </script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
