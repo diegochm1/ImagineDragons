@@ -90,32 +90,8 @@ p{
     text-align: center;
 }
 
-#tabla{
-    margin-top: 50px;
-    background-color: #576de7;
-    color: #ffffff;
-    font-family:'Lato', sans-serif;
-    width: 400px;
-    height: 300px;
-        
-}
-
-th{
-    background-color: #060811;
-    padding: 3px;
-}
-
-th:hover{
-    background-color: #ce3850;
-}
-
-td{
-    background-color: #000000;
-    padding: 5px;
-}
-
-td:hover{
-    background-color: #ce3850;
+.table{
+   margin-top: 40px;
 }
 
 .miembros{
@@ -127,7 +103,7 @@ td:hover{
 
 img.border{
     border-radius: 2% 2% 0% 0%;
-    width: 260px;
+    width: 100%;
     height: 360px;
     margin-bottom: 8px;
 }
@@ -136,7 +112,7 @@ img.border{
     text-align: center;
     background-color: #576de7;
     padding-bottom: 30px;
-    padding-top: 50;
+    padding-top: 50px;
 }
 
 #dan{
@@ -225,25 +201,6 @@ a.button{
     font-size: 20px;
 }
 
-.divDerecha{
-    background-color: #576de7;
-    display: flex;
-    margin-bottom: 30px;
-}
-.divDerecha:hover{
-    background-color: #000000
-}
-
-.divIzquierda{
-    background-color: #ce3850;
-    display: flex;
-    flex-direction: row-reverse;
-    margin-bottom: 30px;
-}
-.divIzquierda:hover{
-    background-color: #000000
-}
-
 .titulo{
     color: #ffffff;
     font-size: 50px;
@@ -292,7 +249,7 @@ a.button{
     height: 80vh;
     font-size: 24px;
     text-align: center;
-    margin: 20px auto;
+    margin: 70px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -356,6 +313,12 @@ a.button{
 .imgWallPaper:hover{
     transform: scale(1.1, 1.1);
     filter:contrast(.8);
+}
+
+.alert{
+    margin-left: 80px;
+    margin-right: 80px;
+    
 }
 
 .footer{
