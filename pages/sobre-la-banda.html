@@ -6,16 +6,17 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/a0d2knw7jsm81.webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Imagine Dragons</title>
 </head>
 <body>
     <header>
-        <img src="../img/Logo banda.png" width="300px" alt="Logo de Imagine Dragons" id="logo">
-        <nav>
-            <ul class="menu">
+        <nav class="nav__bg">
+            <img src="../img/Logo banda.png" width="300px" alt="Logo de Imagine Dragons">
+            <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./sobre-la-banda.html">Sobre la banda</a></li>
-                <li><a href="./fanart.html">Fan Art</a></li>
+                <li><a href="../pages/sobre-la-banda.html">Sobre la banda</a></li>
+                <li><a href="../pages/fanart.html">Fan Art</a></li>
             </ul>
         </nav>
     </header>
@@ -85,7 +86,7 @@
         </div>       
         
         <section>
-            <h1 id="discografia">
+            <h1 id="discografia" class="wow animate__animated animate__backInLeft">
                 Discografía de la banda
             </h1>
         </section>
@@ -143,5 +144,9 @@
         </div>
     </footer>
 </footer>
+<script src="./js/wow.min.js"> </script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
