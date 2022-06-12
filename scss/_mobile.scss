@@ -1,0 +1,132 @@
+@media screen and (max-width:320px) {
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+	.nav__bg {
+		li {
+			a {
+				font-size: 10px;
+				text-align: center;
+				margin-left: -20px;
+			}
+		}
+	}
+	.video-calendario {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	#bones {
+		max-width: 100%;
+	}
+	video {
+		max-width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.miembros {
+		flex-wrap: wrap;
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	.integrantes {
+		margin-bottom: 30px;
+	}
+	.border {
+		max-width: 250px;
+	}
+	h1 {
+		text-align: center;
+	}
+	#conocer-mas {
+		padding-top: 0px;
+	}
+	.contenedor {
+		background-color: white;
+		color: white;
+		font-size: 15px;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 750px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas: "ab" "c" "ef" "d";
+		img {
+			max-width: 100%;
+		}
+		h2 {
+			padding-top: 10px;
+		}
+		p {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+	.hijo {
+		border: 3px solid white;
+		max-width: 100%;
+	}
+	.ab {
+		background-color: black;
+		grid-area: ab;
+	}
+	.ef {
+		background-color: black;
+		grid-area: ef;
+	}
+	.c {
+		grid-area: c;
+	}
+	.d {
+		grid-area: d;
+	}
+	.footer {
+		flex-wrap: wrap;
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#preordena {
+		padding-top: 40px;
+	}
+	#newsletter {
+		padding-top: 40px;
+	}
+	.calavera {
+		display: none;
+	}
+	#parrafo {
+		margin: 20px;
+	}
+	.card.mb-3 {
+		max-width: 90%;
+		margin: auto;
+	}
+	#album {
+		a {
+			padding: 20px;
+			flex-wrap: wrap;
+		}
+	}
+	div {
+		img.img-fluid.rounded-start {
+			border-radius: 2%;
+		}
+	}
+	.wallpaper {
+		flex-wrap: wrap;
+		a {
+			margin-bottom: 20px;
+		}
+	}
+	.imgWallPaper {
+		max-width: 85%;
+		margin: 20px;
+	}
+	.alert.alert-primary.d-flex.align-items-center {
+		margin-left: 21px;
+		margin-right: 20px;
+	}
+}

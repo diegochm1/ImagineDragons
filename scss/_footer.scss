@@ -1,0 +1,26 @@
+.footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+	color: $azulEspecial;
+	background-color: #000000;
+}
+#redes {
+	text-align: center;
+	margin-bottom: 15px;
+}
+#preordena {
+	text-align: center;
+	margin-bottom: 15px;
+}
+#newsletter {
+	margin-bottom: 20px;
+}
+img.border-1 {
+	border-radius: 20px;
+	box-shadow: 2px 2px #fcfcfc;
+	&:hover {
+		filter: brightness(.6);
+	}
+}
