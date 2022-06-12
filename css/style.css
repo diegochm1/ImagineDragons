@@ -11,6 +11,7 @@
     position: sticky;
     justify-content: space-between;
     align-items: center;
+    display: flex;
     border-bottom: 2.5px solid black; }
     .nav__bg ul{
       display: flex;}
