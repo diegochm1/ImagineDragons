@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px) {
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+	.nav__bg {
+		li {
+			a {
+				font-size: 1rem;
+			}
+		}
+	}
+	.video-calendario {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	#bones {
+		max-width: 100%;
+	}
+	video {
+		max-width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	#calendario {
+		max-width: 100%;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.miembros {
+		flex-wrap: wrap;
+	}
+	.integrantes {
+		margin: 15px;
+	}
+	.contenedor {
+		background-color: white;
+		color: white;
+		font-size: 15px;
+		text-align: center;
+		width: 400px;
+		margin-bottom: 650px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas: "ab" "c" "d" "ef";
+		h2 {
+			padding-top: 10px;
+		}
+		p {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+	.footer {
+		flex-wrap: wrap;
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.calavera {
+		display: none;
+	}
+	.card.mb-3 {
+		max-width: 500px;
+		margin: 10px auto;
+	}
+	.wallpaper {
+		flex-wrap: wrap;
+	}
+	.border-1 {
+		margin-bottom: 20px;
+	}
+	.portadaAlbum {
+		margin: 10px;
+	}
+}
+@media screen and (max-width: 417px) {
+	.contenedor {
+		background-color: white;
+		color: white;
+		font-size: 15px;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 600px;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+		grid-template-areas: "ab" "c" "ef" "d";
+		img {
+			max-width: 100%;
+		}
+		h2 {
+			padding-top: 10px;
+		}
+		p {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+	.hijo {
+		border: 3px solid white;
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 383px) {
+	nav {
+		display: flex;
+		flex-direction: column;
+	}
+	.nav__bg {
+		li {
+			a {
+				font-size: 0.6rem;
+			}
+		}
+	}
+}

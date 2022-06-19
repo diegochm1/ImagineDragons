@@ -3,6 +3,7 @@
 	padding-bottom: 30px;
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	color: $azulEspecial;
 	background-color: #000000;
 }
@@ -21,6 +22,6 @@ img.border-1 {
 	border-radius: 20px;
 	box-shadow: 2px 2px #fcfcfc;
 	&:hover {
-		filter: brightness(.6);
+		filter: brightness(0.6);
 	}
 }
