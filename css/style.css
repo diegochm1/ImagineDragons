@@ -33,7 +33,7 @@ h1 {
   text-align: center; }
 
 h2 {
-  font-family: 'Kaushan Script', cursive; }
+  font-family: 'Lato', sans-serif; }
 
 h3 {
   font-family: 'Kaushan Script', cursive; }
@@ -69,6 +69,9 @@ video {
 .table {
   margin-top: 40px; }
 
+.centrado{
+  text-align: center; }
+
 .miembros {
   display: flex;
   flex-direction: row;
@@ -100,13 +103,14 @@ img.border {
   padding-bottom: 30px;
   border: #020202; }
 
-a.button {
+.button, .button1 {
   background-color: #ce3850;
   color: black;
   border: none;
   border-radius: 10%;
   padding: 1%;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 #introduccion {
   display: flex;

@@ -16,16 +16,21 @@ h1 {
 	text-align: center;
 }
 h2 {
-	font-family: 'Kaushan Script', cursive;
-}
-h3 {
-	font-family: 'Kaushan Script', cursive;
-}
-h4 {
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Lato', sans-serif;
 }
 p {
 	font-family: 'Lato', sans-serif;
+}
+
+@mixin kaushan {
+	font-family: 'Kaushan Script', cursive;
+}
+
+h3 {
+	@include kaushan
+}
+h4 {
+	@include kaushan
 }
 .banner {
 	display: block;
@@ -43,11 +48,15 @@ video {
 	width: 520px;
 	margin-top: 30px;
 }
-#bones {
+
+@mixin centrado {
 	text-align: center;
 }
+#bones {
+	@include centrado
+}
 #calendario {
-	text-align: center;
+	@include centrado
 }
 .table {
 	margin-top: 40px;
@@ -84,13 +93,16 @@ img.border {
 	padding-bottom: 30px;
 	border: #020202;
 }
-a.button {
+.button {
 	background-color: $rojoEspecial;
 	color: black;
 	border: none;
 	border-radius: 10%;
 	padding: 1%;
 	text-decoration: none;
+}
+.button1 {
+	@extend .button;
 }
 #introduccion {
 	display: flex;
