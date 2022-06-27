@@ -184,8 +184,7 @@ img.border {
 .contenedor {
   background-color: white;
   color: white;
-  width: 800px;
-  height: 89vh;
+  width: 900px;
   font-size: 24px;
   text-align: center;
   align-self: center;
@@ -216,9 +215,9 @@ img.border {
 .d {
   grid-area: d; }
 
-#mercury {
-  margin-top: 30px;
-  margin-bottom: 30px; }
+.mercury {
+  margin: 40px auto; }
+
 /* Background de la página */
 .background {
   background-image: url(https://previews.123rf.com/images/roystudio/roystudio1509/roystudio150900187/44756200-fondo-blanco-resumen-da-forma-de-tela-patr%C3%B3n-de-textura.jpg); }
@@ -307,7 +306,6 @@ img.border-1 {
       font-size: 15px;
       text-align: center;
       width: 400px;
-      margin-bottom: 650px;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
@@ -344,7 +342,6 @@ img.border-1 {
       font-size: 15px;
       text-align: center;
       width: 100%;
-      margin-bottom: 680px;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
@@ -405,7 +402,6 @@ img.border-1 {
       font-size: 15px;
       text-align: center;
       width: 100%;
-      margin-bottom: 800px;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
